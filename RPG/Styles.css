@@ -1,0 +1,116 @@
+/* Geral */
+body {
+    background-image: url('Brasil.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: azure;
+    font-family: "Sour Gummy", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    transition: background-image 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* Centralização e estilo principal */
+main {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Botões */
+button {
+    background-color: rgb(74, 100, 72);
+    color: aliceblue;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+button:hover {
+    background-color: rgb(100, 130, 100);
+}
+
+
+
+
+
+
+
+
+/* Passos do jogo */
+.passo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.passo.ativo {
+    display: block;
+}
+
+
+
+
+
+
+
+
+/* Texto */
+p {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
